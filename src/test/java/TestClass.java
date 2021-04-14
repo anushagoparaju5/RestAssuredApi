@@ -31,7 +31,6 @@ public class TestClass {
 
         /// Method 2 using BDD
         System.out.println(given().when().get("https://demoqa.com/utilities/weather/city/Hyderabad").then().log().all());
-
     }
 
 
